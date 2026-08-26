@@ -1,10 +1,10 @@
 / Local RHEL Network Lab
 
 
-// Network Interface
+// Network Interface  
 
-  Interface: ens160 (VM)
-  IPv4 address: 10.233.58.65
+  Interface: ens160 (VM)  
+  IPv4 address: 10.233.58.65  
   Prefix: /24
 
 /// Knowledge Acquired
