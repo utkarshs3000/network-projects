@@ -16,11 +16,11 @@ Network Interface is the connection the system is using to communicate.
 
 --
 
-// Default Gateway
+// Default Gateway  
 
-  Gateway: 10.233.58.43
-  Command: ping -c 4 (IP)
-  Result: 4 packets received 4 sent 0 packets loss
+  Gateway: 10.233.58.43  
+  Command: ping -c 4 (IP)  
+  Result: 4 packets received 4 sent 0 packets loss  
 
 /// Knowledge Acquired
 
@@ -30,10 +30,10 @@ Gateway is the door my system send packets to if it wants to connect to the exte
 
 --
 
-// Internet Connectivity Test
+// Internet Connectivity Test  
 
-  Target IP: 8.8.8.8
-  Result: Internet connection is working
+  Target IP: 8.8.8.8  
+  Result: Internet connection is working  
 
 /// Interpretation
 
@@ -43,11 +43,11 @@ If the IP responds, basic network connectivity is working.
 
 --
 
-// DNS Test
+// DNS Test  
 
-  Domain: google.com
-  DNS Server: 2409:40c4:34f:a06::4e
-  Resolved IP: 192.178.173.139
+  Domain: google.com  
+  DNS Server: 2409:40c4:34f:a06::4e  
+  Resolved IP: 192.178.173.139  
   Result: Domain name got resolved to its IP address
 
 /// What I learned
@@ -62,11 +62,11 @@ If direct IP works but domain names does not then, DNS may be the issue.
 
 
 
-// ARP \ Neighbor Table
+// ARP \ Neighbor Table  
 
-  Gateway IP: 192.168.2.1 
-  Gateway MAC: 50:2b:73:00:8e:d0 
-  State: REACHABLE
+  Gateway IP: 192.168.2.1   
+  Gateway MAC: 50:2b:73:00:8e:d0   
+  State: REACHABLE  
 
 /// Knowledge Acquired 
 
@@ -76,10 +76,10 @@ APR maps an IPv4 address to the MAC address on a network.
 
 --
 
-// ICMP Capture
+// ICMP Capture  
 
-  Command: ping -c wikipedia.org
-  Wireshark Filter: icmp
+  Command: ping -c wikipedia.org  
+  Wireshark Filter: icmp  
 
 /// Observation
 
@@ -90,24 +90,24 @@ ICMP Echo Reply
 
 --
 
-// DNS Packet Analysis
+// DNS Packet Analysis  
 
-  Client IP: 192.168.2.110
-  DNS Server: 192.168.2.1
-  Domain Queried: wikipedia.org
-  Returned IP: 103.102.166.224
-  Protocols: eth:ethertype:ip:udp:dns
+  Client IP: 192.168.2.110  
+  DNS Server: 192.168.2.1  
+  Domain Queried: wikipedia.org  
+  Returned IP: 103.102.166.224  
+  Protocols: eth:ethertype:ip:udp:dns  
 
 <img width="1920" height="1080" alt="Screenshot 2026-08-26 000755" src="https://github.com/user-attachments/assets/c400b559-9beb-491f-b3fb-27bbcbf33fe1" />
 
 --
 
-//  TCP Connection Analysis
+//  TCP Connection Analysis  
 
-  Source IP: 192.168.2.110
-  Destination IP: 103.102.166.224
-  Source Port: 58692
-  Destination Port: 443
+  Source IP: 192.168.2.110  
+  Destination IP: 103.102.166.224  
+  Source Port: 58692  
+  Destination Port: 443  
 
   Handshake Observation:
   SYN
@@ -118,23 +118,23 @@ ICMP Echo Reply
 
 --
 
-// Ports
+// Ports  
   
-  Port: 22
-  TCP/UDP: tcp
-  Listening Address: 0.0.0.22
-  Service: SSH
+  Port: 22  
+  TCP/UDP: tcp  
+  Listening Address: 0.0.0.22  
+  Service: SSH  
 
 <img width="1920" height="1080" alt="Screenshot 2026-08-26 011127" src="https://github.com/user-attachments/assets/7746c4f2-a00e-401a-945b-89a11616c4bb" />
 
 --
 
-// HTTPs \ TLS Observation
+// HTTPs \ TLS Observation  
 
-  Target: wikipedia.org
-  Port: 443
+  Target: wikipedia.org  
+  Port: 443  
   TLS Traffic Observed: TLS packets were captured between RHEL system and the web server, I observed the TLS Handshake including 
-   Client Hello with the supported Cipher Suites and Server Hello in Wireshark and encrypted application traffic.
+   Client Hello with the supported Cipher Suites and Server Hello in Wireshark and encrypted application traffic.  
 
 /// Learning
 
