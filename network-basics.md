@@ -14,7 +14,7 @@ Network Interface is the connection the system is using to communicate.
 
 <img width="1912" height="1078" alt="Screenshot 2026-08-25 172119" src="https://github.com/user-attachments/assets/0ee83308-4d9c-47a4-9a67-71e5b2944208" />
 
-
+--
 
 // Default Gateway
 
@@ -28,7 +28,7 @@ Gateway is the door my system send packets to if it wants to connect to the exte
 
 <img width="1920" height="1080" alt="Screenshot 2026-08-25 173906" src="https://github.com/user-attachments/assets/aa4bd473-ad6b-48a9-a510-771b441e4db2" />
 
-
+--
 
 // Internet Connectivity Test
 
@@ -41,7 +41,7 @@ If the IP responds, basic network connectivity is working.
 
 <img width="1920" height="1080" alt="Screenshot 2026-08-25 175148" src="https://github.com/user-attachments/assets/e851f89a-f0e9-4edc-94c2-90d99345d4a8" />
 
-
+--
 
 // DNS Test
 
@@ -74,7 +74,7 @@ APR maps an IPv4 address to the MAC address on a network.
 
 <img width="1920" height="1080" alt="Screenshot 2026-08-25 231328" src="https://github.com/user-attachments/assets/e0b82556-d614-4821-9eac-0b0ea695b79b" />
 
-
+--
 
 // ICMP Capture
 
@@ -88,7 +88,7 @@ ICMP Echo Reply
 
 <img width="1920" height="1080" alt="Screenshot 2026-08-25 233411" src="https://github.com/user-attachments/assets/6ecaff88-3600-4490-970f-12cc7cbf8e05" />
 
-
+--
 
 // DNS Packet Analysis
 
@@ -100,7 +100,7 @@ ICMP Echo Reply
 
 <img width="1920" height="1080" alt="Screenshot 2026-08-26 000755" src="https://github.com/user-attachments/assets/c400b559-9beb-491f-b3fb-27bbcbf33fe1" />
 
-
+--
 
 //  TCP Connection Analysis
 
@@ -116,7 +116,7 @@ ICMP Echo Reply
 
 <img width="1920" height="1080" alt="Screenshot 2026-08-26 005409" src="https://github.com/user-attachments/assets/709803a1-3cfc-4a5d-b470-02f35341c020" />
 
-
+--
 
 // Ports
   
@@ -127,7 +127,7 @@ ICMP Echo Reply
 
 <img width="1920" height="1080" alt="Screenshot 2026-08-26 011127" src="https://github.com/user-attachments/assets/7746c4f2-a00e-401a-945b-89a11616c4bb" />
 
-
+--
 
 // HTTPs \ TLS Observation
 
