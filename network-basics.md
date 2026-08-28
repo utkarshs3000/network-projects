@@ -1,5 +1,34 @@
 ## [ Local RHEL Network Lab ]
 
+This project documents a practical, hands-on networking lab built within a Red Hat Enterprise Linux (RHEL) environment. It serves as a comprehensive log of foundational networking concepts, demonstrating how systems communicate, resolve addresses, and secure traffic across a network.
+
+>## Core Topics Explored
+
+>* **Network Interfaces and IPv4 Addressing:** Identification of system network interfaces, IP addresses, and network prefixes to establish local connectivity.
+
+
+>* **Gateway Configuration:** Understanding the role of the default gateway in routing packets to external networks and validating this connection.
+
+
+>* **Connectivity Testing:** Utilizing ICMP `ping` commands to test both direct IP internet connectivity and domain resolution.
+
+
+>* **DNS Resolution:** Analyzing how the Domain Name System converts human-readable domain names into IP addresses, alongside DNS packet analysis and protocol layer inspection (eth, ip, udp, dns).
+
+
+>* **ARP and Neighbor Tables:** Observing how the Address Resolution Protocol (ARP) maps known IPv4 addresses to physical MAC addresses on a local network.
+
+
+>* **ICMP Packet Analysis:** Using Wireshark to capture, filter, and observe ICMP Echo Requests and Echo Replies.
+
+
+>* **TCP Connections:** Tracking network traffic between source and destination ports to observe the complete TCP three-way handshake (SYN, SYN-ACK, ACK).
+
+
+>* **Port Monitoring:** Identifying active listening ports and their associated services, such as TCP port 22 for SSH.
+
+
+>* **HTTPS and TLS Encryption:** Capturing secure web traffic on port 443 to observe the TLS handshake process, including "Client Hello" cipher suite proposals and "Server Hello" responses, while understanding the nature of encrypted application traffic.
 
 // Network Interface  
 
